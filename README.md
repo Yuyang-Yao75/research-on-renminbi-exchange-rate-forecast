@@ -10,3 +10,7 @@ ExchangeRateForecasting](https://github.com/EmmaHLU/ExchangeRateForecasting)
 
 **目前进度：**
 1. 现有文章存在的问题是大多数添加的指标都很少，而且几乎都是一次性经验模态分解（存在信息泄露问题），实际应用价值有限。
+	a.   通过动态对冲的方式初步解决了该问题，现有模型框架如下![基于动态CEEMDAN-LSTM的汇率预测框架图](https://github.com/user-attachments/assets/32a213a6-4460-4a23-9241-0f01d7e32369)
+	b.   现有代码见“动态CEEMDAN-LSTM.ipynb”
+3. 后续计划尝试在经验模态分解方法处入手解决问题......
+
